@@ -17,6 +17,7 @@ module.exports = {
         blueTertiary: "#3C5B9A",
         grayPrimary: "#7D7D7D",
         whiteSecondary: "#EEEEEE",
+        whitePrimaty: "#FAFAFA",
       },
       width: {
         128: "21rem",
