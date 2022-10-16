@@ -5,8 +5,210 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/css/main.css" />
   </head>
-  <body></body>
+  <body>
+    <nav class="px-4 pt-10 container mx-auto relative">
+      <div class="flex items-center justify-between">
+        <a class="mr-auto">
+          <img src="./img/logo.jpg" alt="" />
+        </a>
+
+        <div class="hidden lg:block space-x-9">
+          <a
+            href="#"
+            class="tracking-wide text-base font-500 text-blackPrimary lg:hover:text-bluePrimary"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="tracking-wide text-base font-500 text-blackPrimary lg:hover:text-bluePrimary"
+            >About Us</a
+          >
+          <a
+            href="#"
+            class="tracking-wide text-base font-500 text-blackPrimary lg:hover:text-bluePrimary"
+            >Our Services</a
+          >
+          <a
+            href="#"
+            class="tracking-wide text-base font-500 text-blackPrimary lg:hover:text-bluePrimary"
+            >Responsibilities</a
+          >
+          <a
+            href="#"
+            class="tracking-wide text-base font-500 text-blackPrimary lg:hover:text-bluePrimary"
+            >Country</a
+          >
+          <a
+            href="#"
+            class="rounded-xl border-bluePrimary border py-2 px-9 font-500 tracking-wide text-base hover:bg-bluePrimary hover:text-white"
+            >Apply</a
+          >
+        </div>
+
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <div
+        id="menu"
+        class="absolute top-full left-2/4 -translate-x-2/4 transition-none z-40 bg-white lg:hidden hidden flex-col items-center justify-center px-6 py-8 shadow-xl container"
+      >
+        <a
+          href="#"
+          class="tracking-wide text-base font-500 mb-3 text-bluePrimary"
+          >Home</a
+        >
+        <a
+          href="#"
+          class="tracking-wide text-base font-500 mb-3 text-bluePrimary"
+          >About Us</a
+        >
+        <a
+          href="#"
+          class="tracking-wide text-base font-500 mb-3 text-bluePrimary"
+          >Our Services</a
+        >
+        <a
+          href="#"
+          class="tracking-wide text-base font-500 mb-3 text-bluePrimary"
+          >Responsibilities</a
+        >
+        <a
+          href="#"
+          class="tracking-wide text-base font-500 mb-3 text-bluePrimary"
+          >Country</a
+        >
+      </div>
+    </nav>
+
+    <section
+      class="px-4 banner relative container mx-auto pt-36 pb-40 md:pt-32 md:pb-20"
+    >
+      <div
+        class="flex flex-col items-center justify-center lg:items-start lg:justify-start lg:w-2/5"
+      >
+        <h1
+          class="mb-8 text-4xl md:text-6xl md:w-3/5 lg:w-auto lg:text-left lg:mb-8 text-center lg:text-6xl font-bold"
+        >
+          We Help to <span class="text-bluePrimary">Build</span> Your Dream
+        </h1>
+        <p
+          class="mb-10 text-center lg:text-left lg:text-xl text-grayPrimary lg:mb-10"
+        >
+          We are always availed to consult on taking your higher education to
+          the next level so you can stay competitive in the
+        </p>
+        <div
+          class="flex-col justify-center md:flex-row md:justify-between items-center md:w-3/5 lg:w-auto lg:flex-col lg:justify-start lg:items-start"
+        >
+          <a
+            href="#"
+            class="inline-block py-3 px-8 bg-bluePrimary rounded-lg text-white text-xl mb-8 lg:mb-24 lg:hover:bg-transparent lg:border lg:border-bluePrimary lg:hover:text-bluePrimary"
+            >Apply Online <span class="ml-8 font-bold">&rarr;</span></a
+          >
+
+          <div
+            class="flex justify-center md:justify-start items-center space-x-4"
+          >
+            <a href="#">
+              <svg
+                class="fill-bluePrimary hover:fill-blueSecondary"
+                width="13"
+                height="21"
+                viewBox="0 0 13 21"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.48391 20.7258H7.78952V12.104H11.6689L12.0951 7.81965H7.78952V5.65636C7.78952 5.06189 8.27142 4.57997 8.86591 4.57997H12.0951V0.274414H8.86591C5.89346 0.274414 3.48391 2.684 3.48391 5.65636V7.81965H1.33113L0.904999 12.104H3.48391V20.7258Z"
+                />
+                <mask
+                  id="mask0_0_70"
+                  style="mask-type: alpha"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="13"
+                  height="21"
+                >
+                  <path
+                    d="M3.48391 20.7258H7.78952V12.104H11.6689L12.0951 7.81965H7.78952V5.65636C7.78952 5.06189 8.27142 4.57997 8.86591 4.57997H12.0951V0.274414H8.86591C5.89346 0.274414 3.48391 2.684 3.48391 5.65636V7.81965H1.33113L0.904999 12.104H3.48391V20.7258Z"
+                    fill="white"
+                  />
+                </mask>
+                <g mask="url(#mask0_0_70)"></g>
+              </svg>
+            </a>
+
+            <a href="#">
+              <svg
+                class="fill-bluePrimary hover:fill-blueSecondary"
+                width="31"
+                height="31"
+                viewBox="0 0 31 31"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.0642 6.8182C18.7388 6.48894 20.2428 6.7278 21.5093 7.33909C21.5784 7.37242 21.6451 7.40603 21.7095 7.43977L22.9507 6.93748C24.229 6.42019 25.5799 7.50218 25.3552 8.86186C25.9639 9.53054 26.0605 10.6478 25.2379 11.3837L23.9649 12.5223C23.9805 13.9225 23.7885 15.1778 23.1988 16.5771C22.1477 19.0714 20.6404 20.9472 18.7963 22.252C17.4929 23.1743 16.0983 23.7599 14.6928 24.075C13.7843 24.2787 13.0137 24.3422 12.4466 24.3281C10.7157 24.3476 9.12124 23.9815 7.69868 23.3588C6.85227 22.9883 6.23046 22.6055 5.85678 22.3168C4.50586 21.2732 5.27496 19.1106 6.98146 19.1544C7.30906 19.1628 7.61591 19.158 7.90289 19.1413C7.3595 18.4971 7.07106 17.8492 6.95392 17.3161C6.91324 17.131 6.90309 16.9475 6.9197 16.7703C6.80693 16.6343 6.70181 16.4931 6.60438 16.3471C5.9139 15.3122 5.71017 14.2484 5.76736 13.34C5.77149 13.284 5.77303 13.263 5.77506 13.242C5.77628 13.2294 5.77768 13.2168 5.77991 13.1967L5.77991 13.1966C5.81096 12.9328 5.89572 12.6947 6.02019 12.4884C5.65454 11.3235 5.73754 10.1522 6.08203 9.04938C6.19407 8.69068 6.31203 8.41015 6.40776 8.22188C6.97811 7.10012 8.50537 6.91806 9.32343 7.87431C10.6115 9.37994 11.8837 10.2751 13.0971 10.7089C13.2476 10.7627 13.3923 10.808 13.5306 10.8454C13.9169 8.40741 15.5217 6.94925 17.0642 6.8182ZM15.2544 12.913C15.2544 12.913 12.061 13.6536 8.49764 9.48823C8.49764 9.48823 7.10929 12.2188 9.51599 13.8847C9.51599 13.8847 8.72958 14.0236 8.08097 13.5611C8.08097 13.5611 7.80319 15.9211 10.6727 16.8467H9.14543C9.14543 16.8467 9.56237 18.7442 12.2463 19.1606C12.2463 19.1606 11.1357 20.6414 7.52568 20.5489C7.52568 20.5489 9.56237 22.1223 12.6632 22.0759C12.6632 22.0759 18.4014 22.3537 21.132 15.8744C21.8034 14.281 21.7336 12.7741 21.6873 12.0333L23.4459 10.4602L21.6873 10.7841C21.6873 10.7841 22.8906 9.9049 23.0298 9.07184L21.0859 9.85851C21.0859 9.85851 19.6281 8.53961 17.1519 9.07184C17.1516 9.07184 14.8844 9.53462 15.2544 12.913Z"
+                />
+                <mask
+                  id="mask0_0_73"
+                  style="mask-type: alpha"
+                  maskUnits="userSpaceOnUse"
+                  x="5"
+                  y="6"
+                  width="21"
+                  height="19"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M17.0642 6.8182C18.7388 6.48894 20.2428 6.7278 21.5093 7.33909C21.5784 7.37242 21.6451 7.40603 21.7095 7.43977L22.9507 6.93748C24.229 6.42019 25.5799 7.50218 25.3552 8.86186C25.9639 9.53054 26.0605 10.6478 25.2379 11.3837L23.9649 12.5223C23.9805 13.9225 23.7885 15.1778 23.1988 16.5771C22.1477 19.0714 20.6404 20.9472 18.7963 22.252C17.4929 23.1743 16.0983 23.7599 14.6928 24.075C13.7843 24.2787 13.0137 24.3422 12.4466 24.3281C10.7157 24.3476 9.12124 23.9815 7.69868 23.3588C6.85227 22.9883 6.23046 22.6055 5.85678 22.3168C4.50586 21.2732 5.27496 19.1106 6.98146 19.1544C7.30906 19.1628 7.61591 19.158 7.90289 19.1413C7.3595 18.4971 7.07106 17.8492 6.95392 17.3161C6.91324 17.131 6.90309 16.9475 6.9197 16.7703C6.80693 16.6343 6.70181 16.4931 6.60438 16.3471C5.9139 15.3122 5.71017 14.2484 5.76736 13.34C5.77149 13.284 5.77303 13.263 5.77506 13.242C5.77628 13.2294 5.77768 13.2168 5.77991 13.1967L5.77991 13.1966C5.81096 12.9328 5.89572 12.6947 6.02019 12.4884C5.65454 11.3235 5.73754 10.1522 6.08203 9.04938C6.19407 8.69068 6.31203 8.41015 6.40776 8.22188C6.97811 7.10012 8.50537 6.91806 9.32343 7.87431C10.6115 9.37994 11.8837 10.2751 13.0971 10.7089C13.2476 10.7627 13.3923 10.808 13.5306 10.8454C13.9169 8.40741 15.5217 6.94925 17.0642 6.8182ZM15.2544 12.913C15.2544 12.913 12.061 13.6536 8.49764 9.48823C8.49764 9.48823 7.10929 12.2188 9.51599 13.8847C9.51599 13.8847 8.72958 14.0236 8.08097 13.5611C8.08097 13.5611 7.80319 15.9211 10.6727 16.8467H9.14543C9.14543 16.8467 9.56237 18.7442 12.2463 19.1606C12.2463 19.1606 11.1357 20.6414 7.52568 20.5489C7.52568 20.5489 9.56237 22.1223 12.6632 22.0759C12.6632 22.0759 18.4014 22.3537 21.132 15.8744C21.8034 14.281 21.7336 12.7741 21.6873 12.0333L23.4459 10.4602L21.6873 10.7841C21.6873 10.7841 22.8906 9.9049 23.0298 9.07184L21.0859 9.85851C21.0859 9.85851 19.6281 8.53961 17.1519 9.07184C17.1516 9.07184 14.8844 9.53462 15.2544 12.913Z"
+                    fill="white"
+                  />
+                </mask>
+                <g mask="url(#mask0_0_73)"></g>
+              </svg>
+            </a>
+
+            <a href="#">
+              <svg
+                class="fill-bluePrimary hover:fill-blueSecondary"
+                width="22"
+                height="24"
+                viewBox="0 0 22 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M15.0854 0.875H6.56041C3.02924 0.875 0.166656 3.88824 0.166656 7.60526V16.5789C0.166656 20.296 3.02924 23.3092 6.56041 23.3092H15.0854C18.6166 23.3092 21.4792 20.296 21.4792 16.5789V7.60526C21.4792 3.88824 18.6166 0.875 15.0854 0.875ZM2.29791 7.60526C2.29791 5.12724 4.2063 3.11841 6.56041 3.11841H15.0854C17.4395 3.11841 19.3479 5.12724 19.3479 7.60526V16.5789C19.3479 19.057 17.4395 21.0658 15.0854 21.0658H6.56041C4.2063 21.0658 2.29791 19.057 2.29791 16.5789V7.60526ZM10.8229 17.7007C7.88026 17.7007 5.49478 15.1896 5.49478 12.0921C5.49478 8.99459 7.88026 6.48355 10.8229 6.48355C13.7655 6.48355 16.151 8.99459 16.151 12.0921C16.151 15.1896 13.7655 17.7007 10.8229 17.7007ZM10.8229 15.4572C12.5885 15.4572 14.0198 13.9506 14.0198 12.0921C14.0198 10.2336 12.5885 8.72696 10.8229 8.72696C9.05733 8.72696 7.62604 10.2336 7.62604 12.0921C7.62604 13.9506 9.05733 15.4572 10.8229 15.4572ZM16.151 7.60527C16.7396 7.60527 17.2167 7.10306 17.2167 6.48356C17.2167 5.86405 16.7396 5.36185 16.151 5.36185C15.5625 5.36185 15.0854 5.86405 15.0854 6.48356C15.0854 7.10306 15.5625 7.60527 16.151 7.60527Z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hidden lg:block absolute bottom-0 right-5">
+        <img src="./img/banner-image.png" alt="" />
+      </div>
+    </section>
+
+    <script src="./src/js/script.js"></script>
+  </body>
 </html>
