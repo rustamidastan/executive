@@ -5,7 +5,7 @@ module.exports = {
     screens: {
       sm: "480px",
       md: "768px",
-      lg: "976px",
+      lg: "1024px",
       xl: "1440px",
     },
     extend: {
@@ -17,6 +17,9 @@ module.exports = {
         blueTertiary: "#3C5B9A",
         grayPrimary: "#7D7D7D",
         whiteSecondary: "#EEEEEE",
+      },
+      width: {
+        128: "21rem",
       },
     },
   },
